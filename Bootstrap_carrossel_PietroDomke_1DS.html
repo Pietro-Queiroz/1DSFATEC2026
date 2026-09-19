@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<title>Bootstrap</title>
+</head>
+<body>
+	<!-- usando o container fluid -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-6">
+				<div id="controle" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#controle" data-slide-to="0"></li>
+						<li data-target="#controle" data-slide-to="1"></li>
+						<li data-target="#controle" data-slide-to="2"></li>					
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imagem/hulk.png" alt="">
+							<div class="carousel-caption d-none d-md-block">
+							<br>
+							</br>
+								<h3 style = "color: black" >Hulk</h3>
+								<p style = "color: black">Hulk (Bruce Banner)Quem é: Um brilhante cientista especializado em radiação gama.Origem: Um acidente de laboratório expõe Banner a uma alta dose de radiação gama, fazendo-o se transformar em um monstro verde gigante quando sente raiva.Poderes: Força física quase infinita que aumenta com a raiva, resistência extrema e fator de cura rápido.
+					</div></p>
+							</div>
+						</div>
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="imagem/homem aranha.png" alt="">
+							<div class="carousel-caption d-none d-md-block">
+							</br>
+								<h3 style = "color: black">Homem aranha</h3>
+								<p style = "color: black">Homem-Aranha (Peter Parker)Quem é: Um jovem estudante inteligente e bem-humorado que vive em Nova York. Origem: Ele é mordido por uma aranha radioativa em uma excursão escolar, ganhando habilidades insetoides.Poderes: Agilidade sobre-humana, sentido de alerta (sentido aranha), habilidade de aderir a paredes e lançadores de teia artificiais.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="imagem/capitao america.png" alt="">
+							<div class="carousel-caption d-none d-md-block">
+							</br>
+								<h3 style = "color: black">Capitão América</h3>
+								<p style = "color: black">Capitão América (Steve Rogers)Quem é: Um jovem franzino que se torna o super soldado patriótico durante a Segunda Guerra Mundial. Origem: Ele recebe o soro do supersuper-soldado e passa por um tratamento especial, ganhando força e agilidade máximas.Poderes: Força sobre-humana, reflexos rápidos, cura acelerada e o uso de um escudo indestrutível de vibranium.
+					</div></p>
+							</div>
+						</div>
+					</div>
+					<a href="#controle" class="carousel-control-prev" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a href="#controle" class="carousel-control-next" role="button" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery, Popper.js, Bootstrap JS -->	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$('.carousel').carousel({
+			interval: 1000
+		})
+	</script>
+</body>
+</html>
+
